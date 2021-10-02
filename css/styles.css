@@ -825,10 +825,6 @@ footer .container {
     }
 
 .btn:hover {
-    border-color: var(--accent-color);
-    }
-
-.btn:hover {
     fill: var(--accent-color);
     }
 
@@ -901,11 +897,16 @@ footer .container {
     padding-left: 40px;
 }
 
-.comment {
+.comment-textarea {
     width: 448px;
     height: 120px;
     padding: 12px 16px;
     resize: none;
+    }
+
+.comment-textarea:focus {
+    border-color: var(--accent-color);
+    outline: none;
     }
 
 .comment::placeholder {
